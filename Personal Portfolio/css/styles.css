@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header {
+  text-align: center;
+  padding: 200px;
+}
+
+body {
+  background: url(../images/resume1.jpg) no-repeat fixed 50%;
+  background-size: cover;
+  padding: 200px;
+}
+
+.download {
+  width: 100px;
+  height: 100px;
+  background: blue;
+  position: fixed;
+  top: 10px;
+
+
+}
+
+.profile {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 50px;
+  color: white;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.profile img {
+  display: inline;
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.me {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  padding: 20px;
+  float: left;
+}
+
+.content-wrap {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.work {
+  background: white;
+  color: black;
+  margin: 0px;
+  padding: 50px;
+}
+
+.skills {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 50px;
+  color: white;
+  margin: 0px;
+  overflow: hidden;
+  padding-bottom: 150px;
+}
+
+.achievements {
+  background: rgba(255, 255, 255, 0.8);
+  color: black;
+  margin: 0px;
+  padding: 50px;
+}
+.education {
+  background: #ffefc8;
+  margin: 0px;
+    padding: 50px;
+}
+
+footer {
+  height: 700px;
+  background: linear-gradient( rgba(255, 239, 200, 1), rgba(92, 108, 124, 0) ),
+                url(../images/resume2.jpg);
+  background-size: cover;
+  color: black;
+  text-align: right;
+  margin: 0px;
+}
+
+.name {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 90px;
+  margin-bottom: 0px;
+  color: white;
+}
+
+h3 {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 20px;
+  margin-left: 35px;
+}
+
+h2 {
+  font-family: 'Playfair Display SC', serif;
+  font-size: 30px;
+  margin-bottom: 0px;
+  margin-left: 35px;
+}
+
+p {
+  font-family: 'Pontano Sans', sans-serif;
+  margin-left: 35px;
+  padding-bottom: 20px;
+}
+
+.title {
+  margin-top: 0px;
+  color: white;
+  padding-bottom: 15px;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  font-family: 'Pontano Sans', sans-serif;
+  margin-bottom: 10px;
+}
+
+.column-left {
+  float: left;
+  width: 33%;
+}
+
+.column-right{
+  float: right;
+  width: 33%;
+}
+
+.column-center{
+  display: inline-block;
+  width: 33%;
+}
+
+.skills-circles{
+  display: inline-block;
+}
+
+.skill {
+  margin-bottom: 30px;
+}
+
+ul {
+  margin-left: 50px;
+  list-style-image: url(../images/icon5.png);
+}
+
+a:hover {
+  background:#ffefc8;
+  color: black;
+}
+
+hr {
+  margin-bottom: 20px;
+}
+
+a {
+  color: white;
+  background: #425367;
+  padding: 1px;
+  text-decoration: none;
